@@ -32,6 +32,7 @@ func (c *clientRepository) Featch() ([]*model.Client, error) {
 		if err != nil {
 			break
 		}
+
 		i++
 
 		client := &model.Client{}
